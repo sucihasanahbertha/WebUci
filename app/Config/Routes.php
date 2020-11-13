@@ -32,10 +32,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/mahasiswa', 'Helloworld::show');
-$routes->get('/uci', function(){
-	echo view("mahasiswa/header");
-	echo view("mahasiswa/index");
-	echo view("mahasiswa/footer");
+$routes->get('/fauzi', function() {
+	echo view("Mahasiswa/header");
+	echo view("Mahasiswa/index");
+	echo view("Mahasiswa/footer");
 });
 $routes->get('/coba/(:any)/(:num)', 'Helloworld::index/$1/$2');
 

@@ -7,13 +7,16 @@ class Home extends BaseController
 		return view('welcome_message');
 	}
 
-	//--------------------------------------------------------------------
 	public function show()
 	{
 		$data['nama'] = 'Suci Hasanah Bertha';
 		$data['npm'] = '1817051003';
-		echo view('mahasiswa/header', $data);
-		echo view('mahasiswa/index', $data);
-		echo view('mahasiswa/footer', $data);
+
+		echo view('Mahasiswa/header');
+		echo view('Mahasiswa/index', $data);
+		echo view('Mahasiswa/footer');
 	}
+
+	//--------------------------------------------------------------------
+
 }
