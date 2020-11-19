@@ -9,25 +9,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <title>
-    Login Form
+    Register
     </title>
   </head>
   <body>
   <div class="container">
-    <h2 class="text-center text-primary mt-3">Login</h2>
+    <h2 class="text-center text-primary mt-3">Register</h2>
     <form class="col-lg-5 mx-auto">
        <div class="form-group">
-         <label for="exampleInputEmail">Email</label>
-         <input type="email" class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Alamat Email"required>
+          <label for="nama">Nama</label>
+          <input type="text" class="form-control shadow p-3 mb-5 bg-white rounded" id="nama" placeholder="Masukkan Nama "required>
        </div>
-       <div class="form-group">
-          <label for="exampleInputPassword">Password</label>
-          <input type="password" class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleInputPassword" placeholder="Masukkan Password"required>
+
+       <div class="row">
+         <div class="col-md-7">
+          <div class="form-group">
+            <label for="kota">Jenis Kelamin</label>
+            <input type="text" class="form-control shadow p-3 mb-5 bg-white rounded" id="kota" placeholder="Masukkan Jenis Kelamin"required>
+          </div>
+         </div>
+         <div class="col-md-6">
+         <div class="form-group">
+            <label for="tanggal">Tanggal Lahir</label>
+            <input type="date" id="tanggal" class="form-control shadow p-3 mb-5 bg-white rounded">
+          </div>
        </div>
+    </div>
+
+         <div class="form-group">
+            <label for="exampleInputEmail">Email</label>
+            <input type="email" class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Alamat Email"required>
+         </div>
+
+         <div class="form-group">
+            <label for="exampleInputPassword">Password</label>
+            <input type="password" class="form-control shadow p-3 mb-5 bg-white rounded" id="exampleInputPassword" placeholder="Masukkan Password"required>
+         </div>
 
        <div class="row mx-auto">
        <button type="submit" class="btn btn-primary">Submit</button>
-       <button type="submit" class="btn btn-link"><a href="<?= base_url('Auth/register'); ?>">Buat Akun Baru</button>
+       <button type="submit" class="btn btn-link"><a href="<?= base_url('Auth/login'); ?>">Saya Memiliki Akun</button>
        </div>
     </form>
   </div>
