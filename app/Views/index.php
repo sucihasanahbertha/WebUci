@@ -27,6 +27,9 @@
         <a class="nav-link" href="<?= base_url('auth/admin'); ?>">Admin</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('auth/about'); ?>">About</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="<?= base_url('auth/login'); ?>">Log In / Sign Up</a>
       </li>
     </ul>
@@ -40,7 +43,10 @@
 
   <div class="container text-center text-black ">
   <h1 class="display-4font-weight-bold">Reply 1988</h1>
-  <img src="/img/reply.jpg" width="200px"class="rounded"> 
+  <img src="/img/reply.jpg" width="250px"class="rounded"> 
+  <li>
+        <a href="<?= base_url('auth/detail'); ?>">Detail...</a>
+      </li>
     <p class="lead">Drama yang mengusung tema kekeluargaan ini dijamin membuat kalian hanyut saat menontonnya</p>
   </div>
 
@@ -51,7 +57,10 @@
 
   <div class="container text-center text-black ">
    <h1 class="display-4font-weight-bold">Start Up</h1>
-   <img src="/img/startup.jpg" width="200px"class="rounded">
+   <img src="/img/startup.jpg" width="250px"class="rounded">
+   <li>
+        <a href="<?= base_url('auth/detail'); ?>">Detail...</a>
+      </li>
     <p class="lead">Drama yang sedang on going ini menjadi salah satu drama yang paling dinanti-nanti karena ceritanya yang menarik </p>
   </div>
 
@@ -59,21 +68,30 @@
 <
   <div class="container text-center text-black ">
   <h1 class="display-4font-weight-bold">Elite</h1>
-  <img src="/img/elite.jpg" width="200px"class="rounded"> 
+  <img src="/img/elite.jpg" width="250px"class="rounded"> 
+  <li>
+        <a href="<?= base_url('auth/detail'); ?>">Detail...</a>
+      </li>
     <p class="lead">Series yang satu ini memiliki jalan cerita yang tidak terduga, yang membuat penontoh selalu menjadi penasaran</p>
   </div>
 
 
   <div class="container text-center text-black ">
   <h1 class="display-4font-weight-bold">Money Heist</h1>
-  <img src="/img/moneyheist.jpg" width="200px"class="rounded"> 
+  <img src="/img/moneyheist.jpg" width="250px"class="rounded">
+  <li>
+        <a href="<?= base_url('auth/detail'); ?>">Detail...</a>
+      </li> 
     <p class="lead">Siapa yang tidak kenal dengan series ini? Series ini sangat populer pada tahun 2019 hingga saat ini</p>
   </div>
 
 
   <div class="container text-center text-black ">
   <h1 class="display-4font-weight-bold">13 Reason Why</h1>
-  <img src="/img/reason.jpg" width="200px"class="rounded"> 
+  <img src="/img/reason.jpg" width="250px"class="rounded"> 
+  <li>
+        <a href="<?= base_url('auth/detail'); ?>">Detail...</a>
+      </li>
     <p class="lead">Series ini menceritakan 13 alasan mengapa Hannah Baker memutuskan untuk mengakhiri hidupnya</p>
   </div>
 
